@@ -1,3 +1,5 @@
+package JC_lesson_1;
+
 public class Human implements Player{
     String name;
     int maxRunDistance;

@@ -1,3 +1,5 @@
+package JC_lesson_1;
+
 public class Line extends Obstacle{
     private int distance;
 

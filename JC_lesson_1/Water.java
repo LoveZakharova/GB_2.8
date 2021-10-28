@@ -1,3 +1,5 @@
+package JC_lesson_1;
+
 public class Water extends Obstacle{
     private int distance;
 

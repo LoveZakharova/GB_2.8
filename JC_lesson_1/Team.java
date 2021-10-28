@@ -1,3 +1,5 @@
+package JC_lesson_1;
+
 public class Team {
     String teamName;
     Player[] players = new Player[4];

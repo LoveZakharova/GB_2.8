@@ -1,3 +1,5 @@
+package JC_lesson_1;
+
 public class LessonOne {
     public static void main(String[] args) {
         Player[] players = {new Human("Иван"),
