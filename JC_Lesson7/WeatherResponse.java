@@ -18,14 +18,14 @@ public class WeatherResponse {
     final static OkHttpClient okHttpClient = new OkHttpClient();
     final static ObjectMapper objectMapper = new ObjectMapper();
     final static String host = "dataservice.accuweather.com";
-    /*public final String PATH_DB = "jdbc:sqlite:C:\\Users\\RedmiBook\\IdeaProjects\\JavaCore\\src\\main\\resources\\Weather.db";
+    public final String PATH_DB = "jdbc:sqlite:C:\\Users\\RedmiBook\\IdeaProjects\\JavaCore\\src\\main\\resources\\Weather.db";
 
     Connection connection;
     public WeatherResponse() throws SQLException {
         DriverManager.registerDriver(new JDBC());
         connection = DriverManager.getConnection(PATH_DB);
 
-    }*/
+    }
 
     public static String detectCityId(String cityName) throws IOException {
         //по какому адресу (URL!!!) и с какими параметрами нужно отправить запрос GET
@@ -103,7 +103,7 @@ public class WeatherResponse {
 
     }
 
-    /*DayTemp dayTemp = new DayTemp(); //просит параметры, но они должны автоматически попадать
+    DayTemp dayTemp = new DayTemp(); //просит параметры, но они должны автоматически попадать
     public void addDayTemp (DayTemp dayTemp) {
         try(PreparedStatement statement = connection.prepareStatement(
                 "INSERT INTO Weather('date', 'maxTemp', 'minTemp')" +
@@ -131,7 +131,7 @@ public class WeatherResponse {
             }
         }
         return daysTemp;
-    }*/
+    }
 
 
 
